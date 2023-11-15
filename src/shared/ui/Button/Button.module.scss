@@ -1,17 +1,18 @@
 .Button{
-  background: var(--primary-gradient);
-  padding: 10px 16px;
-  border: 0;
-  border-radius: 10px;
-  font-weight: 600;
-  font-size: 14px;
-  text-transform: uppercase;
-  cursor: pointer;
-  color: #fff;
-  transition: all .3s linear;
-  &:hover{
-    background: var(--secondary-color);
-    color: var(--inverted-bg-color);
+    background: var(--primary-gradient);
+    padding: 10px 16px;
+    border: 0;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #fff;
     transition: all .3s linear;
-  }
+
+    &:hover{
+        background: var(--secondary-color);
+        color: var(--inverted-bg-color);
+        transition: all .3s linear;
+    }
 }

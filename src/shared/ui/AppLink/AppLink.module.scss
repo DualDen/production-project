@@ -1,11 +1,12 @@
 .AppLink{
-  color:  var(--primary-color);
-  font-weight: 600;
-  text-decoration: none;
-  outline: none;
-  transition: all .3s ease;
-  &:hover{
-      color: var(--secondary-color);
+    color:  var(--primary-color);
+    font-weight: 600;
+    text-decoration: none;
+    outline: none;
     transition: all .3s ease;
-  }
+
+    &:hover{
+        color: var(--secondary-color);
+        transition: all .3s ease;
+    }
 }

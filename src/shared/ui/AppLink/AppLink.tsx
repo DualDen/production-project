@@ -17,7 +17,7 @@ interface IAppLinkProps {
 
 export const AppLink = ({ className, to, children, theme = AppLinkTheme.PRIMARY, ...otherProps }: IAppLinkProps) => {
   return (
-      <Link to={to} className={classNames(cls.AppLink, {}, [className, cls[theme]])} {...otherProps}>
+      <Link to={to} className={classNames(cls.AppLink, {}, [className ?? '', cls[theme]])} {...otherProps}>
           {children}
       </Link>
   )

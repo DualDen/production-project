@@ -3,25 +3,25 @@
 @import "styles/themes/light";
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .app {
-  transition: .7s;
-  font-size: var(--font-m);
-  background: var(--bg-color);
-  color: var(--primary-color);
-  min-height: 100vh;
-  font-family: var(--font-family-main);
+    transition: .7s;
+    font-size: var(--font-m);
+    background: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    font-family: var(--font-family-main);
 }
 
 .content-page{
-  display: flex;
+    display: flex;
 }
 
 .page-wrapper{
-  flex-grow: 1;
-  padding: 20px;
+    flex-grow: 1;
+    padding: 20px;
 }
