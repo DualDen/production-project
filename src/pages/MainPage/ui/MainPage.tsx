@@ -1,11 +1,13 @@
-import React from 'react';
+import React from 'react'
+import { useTranslation } from 'react-i18next'
 
 const MainPage = () => {
-    return (
-        <div style={{color: '#000'}}>
-            MAIN PAGE
-        </div>
-    );
-};
+  const { t } = useTranslation('main')
+  return (
+      <div style={{ color: '#000' }}>
+          {t('main')}
+      </div>
+  )
+}
 
-export default MainPage;
+export default MainPage

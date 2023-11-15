@@ -5,13 +5,13 @@
   border-radius: 10px;
   font-weight: 600;
   font-size: 14px;
-  max-width: 300px;
   text-transform: uppercase;
   cursor: pointer;
   color: #fff;
   transition: all .3s linear;
   &:hover{
     background: var(--secondary-color);
+    color: var(--inverted-bg-color);
     transition: all .3s linear;
   }
 }
