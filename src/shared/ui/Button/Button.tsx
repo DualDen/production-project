@@ -1,8 +1,10 @@
 import { classNames } from 'shared/lib/classNames/classNames'
 import cls from './Button.module.scss'
+import React from 'react'
 
 export enum ThemeButton {
   CLEAR = 'clear',
+  OUTLINED = 'outlined',
 }
 interface IButtonProps {
   className?: string

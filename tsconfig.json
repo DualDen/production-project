@@ -10,15 +10,24 @@
     "strictNullChecks": true,
     "baseUrl": ".",
     "paths": {
-      "*": ["./src/*"]
+      "*": [
+        "./src/*"
+      ]
     },
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true
   },
   "ts-node": {
     "compilerOptions": {
-      "module": "CommonJS",
+      "module": "CommonJS"
     }
   },
-  "include": [".eslintrc.js", "**/*","!node_modules","./config/jest/setupTests.ts"],
+  "include": [
+    ".eslintrc.js",
+    "**/*",
+    "!node_modules",
+    "./config/jest/setupTests.ts",
+    "./src/**/*.ts",
+    "./src/**/*.tsx"
+  ]
 }

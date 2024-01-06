@@ -15,4 +15,10 @@
         color: var(--inverted-bg-color);
         transition: all .3s linear;
     }
+
+    &.outlined{
+        border: 1px var(--primary-color) #000;
+        border-radius: 10px;
+        color: var(--primary-color);
+    }
 }
