@@ -27,6 +27,7 @@
     "@storybook/addon-links": "^7.6.7",
     "@storybook/addon-onboarding": "^1.0.10",
     "@storybook/addon-styling-webpack": "^0.0.6",
+    "@storybook/auto-config": "^0.0.1",
     "@storybook/blocks": "^7.6.7",
     "@storybook/react": "^7.6.7",
     "@storybook/react-webpack5": "^7.6.7",
