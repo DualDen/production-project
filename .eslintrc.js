@@ -5,7 +5,7 @@ module.exports = {
     es2021: true,
     jest: true
   },
-  extends: ['plugin:react/recommended', 'standard-with-typescript', 'plugin:i18next/recommended', 'plugin:storybook/recommended','plugin:eslint-plugin-storybook/recommended'],
+  extends: ['plugin:react/recommended', 'standard-with-typescript', 'plugin:i18next/recommended', 'plugin:storybook/recommended', 'plugin:eslint-plugin-storybook/recommended'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true
@@ -37,7 +37,8 @@ module.exports = {
     'react/no-deprecated': 'off',
     'no-underscore-dangle': 'off',
     '@typescript-eslint/consistent-type-assertions': 'warn',
-    'eslint handle-callback-err': 'off'
+    'eslint handle-callback-err': 'off',
+    'react/display-name': 'off'
   },
   globals: {
     ' __IS_DEV__': true
