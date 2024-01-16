@@ -1,4 +1,4 @@
-import React, { type ReactElement, Suspense, useEffect } from 'react'
+import React, { type ReactElement, Suspense } from 'react'
 import './styles/index.scss'
 import { classNames } from 'shared/lib/classNames/classNames'
 import { useTheme } from 'app/providers/ThemeProvider/theme/useTheme'

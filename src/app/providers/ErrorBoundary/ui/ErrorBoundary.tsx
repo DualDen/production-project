@@ -1,5 +1,4 @@
 import React, { type ErrorInfo, type ReactNode, Suspense } from 'react'
-import { withTranslation } from 'react-i18next'
 import { PageError } from 'widgets/PageError/ui/PageError'
 
 interface ErrorBoundaryProps {
@@ -25,7 +24,6 @@ class ErrorBoundary extends React.Component<ErrorBoundaryProps, ErrorBoundarySta
   }
 
   render () {
-    const { hasError } = this.state
     const { children } = this.props
     if (this.state.hasError) {
       return <Suspense fallback=''>
